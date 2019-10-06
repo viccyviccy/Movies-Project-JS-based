@@ -1,0 +1,547 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.image-mov_but {
+  outline: none;
+
+
+  //   user-select: none;
+  //   outline: none;
+
+  //   font-family: "Roboto", sans-serif;
+
+}
+
+.movie-descr_title {
+  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
+}
+
+.image-mov_title {
+  font-weight: 800;
+
+  //   font-family: Arial, Helvetica, FreeSans, sans-serif;
+
+
+}
+
+.green-line {
+  display: block;
+  max-width: 3000px;
+}
+
+.white-line {
+  display: block;
+  max-width: 3000px;
+}
+
+.movie-descr {
+  font-family: 'Roboto', sans-serif;
+  max-width: 400px;
+  font-size: 18px;
+}
+
+.in-hidden {
+  display: none;
+}
+
+table {
+  width: 450px;
+}
+
+.green-line {
+  background-color: #addad6;
+}
+
+.table-quest {
+  width: 90px;
+}
+
+td {
+  font-weight: normal;
+  color: #313030;
+  padding: 5px 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  .page-about_part1 {
+    margin: 10px auto;
+    max-width: 767px;
+    max-height: auto;
+    padding: 60px 5px 0px 5px;
+  }
+
+  .movie-descr_title {
+    display: none;
+  }
+
+  .image-mov_but_items {
+    display: flex;
+    flex-flow: row;
+  }
+
+  .image-mov_section {
+    margin: 0 auto;
+    display: block;
+    max-width: 400px;
+    position: relative;
+
+  }
+
+  .image-mov1 {
+    display: block;
+    width: auto;
+    height: 200px;
+    margin: 0 auto;
+    // background: url('../img/img_test_first1/Dark_time.png') no-repeat;
+    background-size: 350px, 300px;
+
+  }
+
+  .image-mov2 {
+    display: none;
+    width: 450px;
+    height: auto;
+    // background: url('../img/img_test_first1/Dark_time.png') no-repeat;
+    background-size: 350px, 100px;
+  }
+
+  .image-movie_title_section {
+    position: relative;
+  }
+
+  .image-mov_title {
+    position: absolute;
+    top: 150px;
+    left: 25px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    max-width: 350px;
+    text-shadow: 13px -3px 20px #000000;
+  }
+
+  .image-mov_butData {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto;
+    max-width: 340px;
+  }
+
+  .image-mov_but {
+    background: none;
+    border: none;
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: gray;
+    margin: 0px 5px 0px 0px;
+    padding: 0px 4px 0px 0px;
+  }
+
+  .image-mov_but:hover {
+    fill: #addad6;
+    stroke: none;
+  }
+
+
+  .data-down {
+    font-size: 13px;
+    color: #89c9c4;
+  }
+
+  .movie-descr_section {
+    margin: 5px auto;
+    max-width: 340px;
+    color: #757575;
+  }
+
+  table {
+    max-width: 100%;
+  }
+
+  .green-line {
+    background-color: #addad6;
+  }
+
+  .table-answ {
+    padding-left: 40px;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .page-about_part1 {
+    display: flex;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 160px 0px 0px 0px;
+  }
+
+  .movie-descr_title {
+    margin: 25px 0px 10px 0px;
+    font-weight: 800;
+  }
+
+  table {
+    width: 400px;
+  }
+
+  .image-mov1 {
+    display: none;
+    width: 450px;
+    height: 300px;
+    // background: url('../img/img_test_first1/Dark_time.png') no-repeat;
+    background-size: 350px, 300px;
+  }
+
+  .image-mov2 {
+    display: block;
+    width: 340px;
+    height: 600px;
+    // background: url('../img/img_test_first1/Dark_time.png') no-repeat;
+    background-size: 350px, 100px;
+  }
+
+  .image-mov_section {
+    display: flex;
+  }
+
+  .image-mov_but {
+    background: none;
+    border: none;
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: grey;
+    margin: 0;
+    padding: 0;
+  }
+
+  .icon-star:hover {
+    fill: #addad6;
+    stroke: none;
+  }
+
+  .movie-descr_section {
+    max-width: 500px;
+  }
+
+  .in-hidden {
+    display: block;
+  }
+
+  .data-down {
+    display: none;
+  }
+
+  .text-Movie {
+    display: flex;
+    flex-flow: column;
+    margin-left: 20px;
+
+  }
+
+  .image-mov_but_items {
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 10px;
+    fill: white;
+  }
+
+  .image-mov_but {
+    margin: 5px 4px;
+  }
+
+  .image-mov_title {
+    margin: 5px 0;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #fff;
+}
+
+
+.page-about_section2 {
+  width: 330px;
+  margin: 0 auto;
+}
+
+.trailerAndMedia {
+  display: flex;
+  flex-direction: column;
+}
+
+.trailer {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  margin-bottom: 38px;
+  order: 2;
+}
+
+.section2_subtitle {
+  margin-bottom: 14px;
+}
+
+.feedback_item {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.feedback_photo {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+}
+
+.feedback_content {
+  max-width: 400px;
+  text-align: justify;
+}
+
+.film-media {
+  order: 1;
+  margin: 0 auto;
+}
+
+.frames {
+  display: none;
+}
+
+.actors {
+  width: 330px;
+
+}
+
+.actors_item {
+  list-style: none;
+  width: 56px;
+  text-align: center;
+}
+
+.actor_photo {
+  width: 56px;
+  height: 56px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.actor_image {
+  position: relative;
+  top: -15px;
+}
+
+
+.slick-arrow.slick-prev:before,
+.slick-arrow.slick-next:before {
+  color: teal
+}
+
+.slick-arrow.slick-prev {
+  left: 0;
+}
+
+.slick-arrow.slick-next {
+  right: 0;
+}
+
+.slick-list.draggable {
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.actors .slick-arrow {
+  position: absolute;
+  top: 34px;
+}
+
+.hidden_text {
+  display: none;
+}
+
+.hidden_text.show_text {
+  display: inline;
+}
+
+.hidden_textbtn {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.5em;
+  font-weight: 700;
+  color: rgb(245, 245, 245);
+  text-shadow: 0 -1px rgba(0, 0, 0, .1);
+  text-decoration: none;
+  user-select: none;
+  margin-left: 1em;
+  padding: .3em 1em;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background: #77c1bb93 linear-gradient(#77c1bb, #538682);
+  box-shadow: inset #77c1bb 0 -1px 1px, inset 0 1px 1px #def7f5c2, #77c1bb 0 0 0 1px, rgba(0, 0, 0, .2) 0 2px 5px;
+  animation: pulsate 1.2s linear infinite;
+}
+
+@keyframes pulsate {
+  50% {
+    color: #fff;
+    text-shadow: 0 -1px rgba(0, 0, 0, .3), 0 0 5px #ffd, 0 0 8px #fff;
+  }
+}
+
+.fill-gold {
+  fill: gold;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .page-about_section2,
+  .page-about_part1 {
+    width: 720px;
+  }
+
+  .trailer {
+    order: 0;
+  }
+
+  .frames {
+    display: block;
+  }
+
+  .iframe_trailer {
+    width: 370px;
+    height: 224px;
+    margin: 0 auto;
+  }
+
+  .film-media {
+    display: flex;
+    justify-content: space-between;
+    width: 720px;
+  }
+
+  .feedback_content {
+    max-width: 720px;
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+  .actors {
+    width: 304px;
+  }
+
+  .frames {
+    width: 340px;
+  }
+
+  .actors-list,
+  .frames-list {
+    display: flex;
+    margin-bottom: 90px;
+  }
+
+  .no_image {
+    top: 0;
+  }
+
+  .frames_item {
+    list-style: none;
+    width: 84px;
+  }
+
+  .frames_picture {
+    height: 84px;
+    width: 84px;
+    margin: 0 auto;
+
+  }
+
+  .frames_image {
+    height: 84px;
+    object-fit: cover;
+  }
+
+  .actors .slick-arrow {
+    top: 44px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .page-about_section2,
+  .page-about_part1 {
+    width: 978px;
+  }
+
+  .iframe_trailer {
+    width: 712px;
+    height: 434px;
+  }
+
+  .feedback_content {
+    max-width: 978px;
+  }
+
+  .film-media {
+    width: 978px;
+  }
+
+  .actors {
+    width: 400px;
+  }
+
+  .frames {
+    width: 500px;
+  }
+
+  .actors_item {
+    width: 80px;
+  }
+
+  .actor_photo {
+    width: 80px;
+    height: 80px;
+  }
+
+  .frames_picture {
+    width: 120px;
+    height: 106px;
+  }
+
+  .frames_image {
+    height: 120px;
+
+  }
+
+  .feedback_photo {
+    width: 80px;
+    height: 80px;
+    margin-right: 16px;
+  }
+
+  .actors .slick-arrow {
+    top: 55px;
+  }
+}

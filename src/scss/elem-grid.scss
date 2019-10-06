@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.fill-gold {
+  fill: gold;
+}
+
+.imbd {
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.button_icon {
+  top: 10px;
+  position: absolute;
+  z-index: 2;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  display: block;
+  background: none;
+}
+
+.films-item {
+  z-index: 1;
+}
+
+.button_icon-star {
+  right: 40px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+
+}
+
+.icon:active {
+  height: 35px;
+  width: 35px;
+  transform: translate(-5px, -5px);
+  transition: all 0.1s;
+}
+
+.fill-white {
+  fill: white;
+}
+
+.gradient {
+  position: absolute;
+  background: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0) 77%,
+      rgba(0, 0, 0, 1) 90%);
+  height: 178px;
+  width: 346px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.films_item {
+  position: relative;
+}
+
+.films-item:hover {
+  filter: brightness(1.5);
+}
+
+.fill-color {
+  fill: gold;
+}
+
+.img-sample,
+.films-item,
+.img-container {
+  width: 346px;
+  height: 178px;
+  border-radius: 3px;
+  filter: brightness(0.9);
+}
+
+.films-item:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.films-list {
+  padding-top: 100px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.films-name {
+  z-index: 1;
+  position: relative;
+  top: -40px;
+  left: 8px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.img-container {
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .films-item:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  .films-item:nth-of-type(odd) {
+    margin-right: 16px;
+  }
+
+  .films-list {
+    padding-top: 170px;
+  }
+
+  .button_icon {
+    top: 15px;
+  }
+
+  .films-item {
+    margin-bottom: 16px;
+  }
+
+  .img-sample,
+  .gradient,
+  .films-item,
+  .img-container {
+    width: 350px;
+    height: 176px;
+  }
+
+  .films-name {
+    font-size: 13px;
+    left: 15px;
+    top: -30px;
+  }
+
+  .films-list {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .img-sample,
+  .gradient,
+  .films-item,
+  .img-container {
+    width: 480px;
+    height: 250px;
+  }
+
+  .films-name {
+    font-size: 19px;
+    left: 12px;
+    top: -40px;
+  }
+
+  .films-list {
+    padding-top: 180px;
+  }
+}
